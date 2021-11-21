@@ -9,6 +9,7 @@ public class A4_OperadoresAri {
 
         System.out.println(numberA+numberB+ " --- " +numberA+numberB);
         System.out.println(numberC-(numberA/numberB));
+        // += -= /= *= %=
 
         int numberD = 5;
         double numberE = 2;
