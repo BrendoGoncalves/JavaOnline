@@ -1,4 +1,4 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
 public class A15_Continue {
     public static void main(String[] args) {
@@ -7,9 +7,8 @@ public class A15_Continue {
         for(int i = 0; i < 20; ++i){
             if(i < 10){
                 continue;
-            }else{
-                System.out.println(i);
             }
+            System.out.println(i);
         }
     }
 }

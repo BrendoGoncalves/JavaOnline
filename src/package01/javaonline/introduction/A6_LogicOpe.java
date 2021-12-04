@@ -1,6 +1,6 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
-public class A6_OperadoresLog {
+public class A6_LogicOpe {
     public static void main(String[] args) {
         // && (AND) || (OR) ! (NOT)
 

@@ -1,6 +1,6 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
-public class A8_CondicaoIFSimples {
+public class A8_CondictionIFSimple {
     public static void main(String[] args) {
 
         boolean gender = true;

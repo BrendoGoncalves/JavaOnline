@@ -1,10 +1,10 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
 /*
  Comment 2
  */
 
-public class A2_TiposPrimitivo {
+public class A2_PrimitiveData {
     public static void main(String[] args) {
         //Integer
         byte var1 = 127; //1 byte = 2^0
@@ -23,10 +23,10 @@ public class A2_TiposPrimitivo {
         //Boolean
         boolean var9 = true; //1 bit = 1/8 byte
 
-        System.out.println("Value: "+var9);
+        System.out.println("Value: " + var9);
 
         //Casting
         byte var10 = (byte) 150;
-        System.out.println("Value: "+var10);
+        System.out.println("Value: " + var10);
     }
 }

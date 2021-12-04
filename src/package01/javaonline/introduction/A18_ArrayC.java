@@ -1,6 +1,6 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
-public class A18_Matriz {
+public class A18_ArrayC {
     public static void main(String[] args) {
         int[][] array = new int[2][3];
 
@@ -13,9 +13,15 @@ public class A18_Matriz {
         array[1][1] = 5;
         array[1][2] = 6;
 
-        for(int i = 0; i < array.length; ++i){
-            for(int j = 0; j < array[0].length; ++j){
+        for (int i = 0; i < array.length; ++i) {
+            for (int j = 0; j < array[i].length; ++j) {
                 System.out.println(array[i][j]);
+            }
+        }
+
+        for (int[] solidArray : array) {
+            for (int i : solidArray) {
+                System.out.println(i);
             }
         }
     }

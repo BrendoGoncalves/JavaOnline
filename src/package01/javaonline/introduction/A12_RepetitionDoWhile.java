@@ -1,6 +1,6 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
-public class A12_RepeticaoDoWhile {
+public class A12_RepetitionDoWhile {
     public static void main(String[] args) {
 
         int counter = 0;

@@ -1,6 +1,6 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
-public class A10_CondicaoSwitch {
+public class A10_CondictionSwitch {
     public static void main(String[] args) {
 
         byte day = 4;

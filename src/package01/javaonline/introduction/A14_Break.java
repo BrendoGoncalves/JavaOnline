@@ -1,4 +1,4 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
 public class A14_Break {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class A14_Break {
         for(int i = 0; i < 10; ++i){
             if(i > 5){
                 break;
-            }else {
+            }else{
                 System.out.println(i);
             }
         }

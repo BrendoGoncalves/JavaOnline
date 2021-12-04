@@ -1,6 +1,6 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
-public class A13_RepeticaoFor {
+public class A13_RepetitionFor {
     public static void main(String[] args) {
 
         for(int i = 0; i < 10; ++i){

@@ -1,6 +1,6 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
-public class A5_OperadoresRel {
+public class A5_RelationalOpe {
     public static void main(String[] args) {
         // < > <= >= == !=
         boolean isVar1 = 2 > 3;

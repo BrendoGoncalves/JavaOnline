@@ -1,6 +1,6 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
-public class A16_VetorA {
+public class A16_ArrayA {
     public static void main(String[] args) {
         //Reference Variable (Array, String)
         String name = null;

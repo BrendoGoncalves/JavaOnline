@@ -1,8 +1,6 @@
-package package01.javaonline.introducao;
+package package01.javaonline.introduction;
 
-import org.w3c.dom.ls.LSOutput;
-
-public class A9_CondicaoIFComposta {
+public class A9_CondictionIFCompoud {
     public static void main(String[] args) {
         byte age = 40;
         String person;
