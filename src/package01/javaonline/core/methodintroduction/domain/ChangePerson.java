@@ -1,6 +1,6 @@
 package package01.javaonline.core.methodintroduction.domain;
 
-public class PrintPerson {
+public class ChangePerson {
 
     public void print(Person pe){
         pe.name = "John";

@@ -4,7 +4,7 @@ public class A16_ArrayA {
     public static void main(String[] args) {
         //Reference Variable (Array, String)
         String name = null;
-        int[] widths = null;
+        int[] width = null;
         //int heigth = null;
 
         int[] ages = new int[3];

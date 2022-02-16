@@ -13,7 +13,7 @@ public class A17_ArrayB {
         /* What happend in this FOR
         int j = array3[0];
         int j = array3[1];
-        .. until int j = array3[5];
+        .. until int j = array3[4];
          */
     }
 }

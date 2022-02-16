@@ -1,20 +1,28 @@
 package package01.javaonline.core.methodintroduction.test;
 
 import package01.javaonline.core.methodintroduction.domain.Person;
-import package01.javaonline.core.methodintroduction.domain.PrintPerson;
+import package01.javaonline.core.methodintroduction.domain.ChangePerson;
 
 public class PersonTest {
     public static void main(String[] args) {
-        Person p = new Person();
-        PrintPerson pp = new PrintPerson();
 
-        p.name = "Mary";
-        p.cpf = "75312687200";
+        Person p1 = new Person();
+        Person p2 = new Person();
 
-        System.out.println(p.name + " - " + p.cpf);
+        ChangePerson cp = new ChangePerson();
 
-        pp.print(p);
+        p1.name = "Mary";
+        p1.cpf = "75312687200";
 
-        System.out.println(p.name + " - " + p.cpf);
+        p2.name = "Kyle";
+        p2.cpf = "7856712049";
+
+        System.out.println(p1.name + " - " + p1.cpf);
+        System.out.println(p2.name + " - " + p2.cpf);
+
+        cp.print(p1);
+
+        System.out.println(p1.name + " - " + p1.cpf);
+        System.out.println(p2.name + " - " + p2.cpf);
     }
 }
